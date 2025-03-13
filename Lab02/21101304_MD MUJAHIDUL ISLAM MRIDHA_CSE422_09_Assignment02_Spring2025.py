@@ -41,7 +41,7 @@ def recombinationAndMutation(population):
         p1=population[random.randint(0,3)]
         p2='run'
         while p2=='run':
-            x=population[random.randint(0,3)]
+            x=population[random.randint(0,3)] #Since the population size is extremely low there is a chance of the code getting stuck here. Please rerun the code if that happens
             if x!=p1:
                 p2=x
         s=random.randint(1,2)
